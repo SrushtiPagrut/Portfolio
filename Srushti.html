@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srushti Pagrut</title>
+    <link rel="stylesheet" href="./Srushti.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>S</span>RUSHTI</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div id="srushtiphoto">
+                <img height="300px" width="300px" src="./image/photo.jpg" alt="">
+            </div>
+            <div class="headertest">
+                <p>Web Devloper</p>
+                <h1>HI,I'M <span>Srushti</span> Pagrut <br>
+                     From Akola,Maharashtra</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img height="350px" width="250px" src="./image/sru.jpg" alt="">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>"I’m a recent graduate in BE-Electrical Engineering and have been working on building my skills in web development. I recently created a portfolio website to showcase my projects, which taught me a lot about designing and coding. I’m <br>excited to start my career and apply my skills in a role like this, where I can <br>grow and make a difference."</p>
+
+                    <div class="tabtitles">
+                        <p class="tablinks" id="Skills" onclick="opentab('skills')" >Skills</p>
+                        <p class="tablinks" id="education" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents" id="skillsresult">
+                        <ul>
+                            <li><span>HTML</span><br>HTML stands for Hyper Text Markup Language. The first version of HTML was written by Tim Berners-Lee in 1993.The current varsion is HTML-5.HTML is use to get the structure of web-page.HTML is error free language and case-insensitive.</li>
+                            <li><span>CSS</span><br>CSS stands for Cascading Style Sheets.It is use to add style or apply the Design form web-page.It is introduced by th person is known as Hakon Wieum lee in the year 1994.It's first varsion 1996 and current varsion css-3</li>
+                            <li><span>JavaScript</span><br>JavaScript in a scripting language is it use to add functionality to web-page.Using javaScript we can convert to static to dynamic webpage.javaScript is introduce by Brendan Eich in 1995.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents" id="educationresult">
+                        <ul>
+                            <li><span>BE-2024</span><br>Prof Ram Meghe College of Engineering & Management</li>
+                            <li><span>12th-2020</span><br>N G Pavitrkar Junior College Akola</li>
+                            <li><span>10th-2018</span><br>New English High School Akola</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Services -->
+     <section id="Services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="content">
+            <div>
+                <span><i class="fa-solid fa-code"></i></span><br><br>
+                <h1>HTML/CSS & JavaScript Development</h1><br>
+                <p>HTML (HyperText Markup Language):Defines the structure of a webpage.CSS (Cascading Style Sheets):Adds style to the webpage.Controls the presentation and ensures responsiveness.JavaScript:Adds interactivity and functionality to webpages.
+                    </p><br>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <span><i class="fa-solid fa-crop"></i></span><br><br>
+                <h1>Web Design</h1><br>
+                <p>As a web designer, you’ll work closely with clients or co-workers to design websites that are functional and visually appealing. You’ll be working not just behind-the-scenes coding in HTML/CSS/JavaScript, but also with the colors, shapes, and fonts that make the website pop for the client.</p><br>
+                <a href="#">Learn more</a>
+            </div>
+            <!-- <div>
+                <span><i class="fa-brands fa-app-store-ios"></i></span><br><br>
+                <h1>UI/UX Design Integration</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, est? Repellat labore, aut laboriosam enim, distinctio ipsum aspernatur maiores velit ducimus ullam sunt a magnam voluptate corporis quas placeat architecto?</p>
+                <a href="#">Learn more</a>
+            </div> -->
+        </div>
+        </div>
+     </section>
+
+     <!-- Portfolio -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./image/Rock pepar Game.png" alt="" height="300px" width="250px">
+                  <div class="layer">
+                    <h1>Rock Pepar Game</h1>
+                    <p>Rock-Paper-Scissors Game 🎮
+                        I created an interactive Rock-Paper-Scissors game using HTML, CSS, and JavaScript. This browser-based project features:
+                        </p>
+                    <a href="/./javaScript/Project.1/Pro1.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               
+                  </div>  
+                </div>
+
+                <div class="work">
+                    <img src="./image/calculation.png" alt="" height="300px" width="250px">
+                    <div class="layer">
+                        <h1>calculator</h1>
+                        <p>Calculators📅 are devices that perform mathematical calculations by taking in numbers and operations as input and displaying the result on the screen. </p>
+                        <a href="/./javaScript/calculator/calculator.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./image/passwoed.png" alt="" height="300px" width="250px">
+                 <div class="layer">
+                    <h1>Password Hide Show Eye Icon👁️</h1>
+                    <p>A small yet very helpful feature on any web login page is to be able to see the password you are typing in. Thankfully, it is very easy to implement the feature to show/hide passwords on a login box using JavaScript.</p>
+                    <a href="/./javaScript/Form validation/Form3.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             
+                 </div>   
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <!-- Contact -->
+       <div class="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>srushtipagrut03@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9075472672</p>
+                </div>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/srushti-pagrut-447ba923a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SrushtiPagrut"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./image/Srushti__Pagrut__9075472672.docx" download class="btnbtn2">Download CV</a>
+                </div>
+                <div class="Contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn3">Submit</button>
+                    </form>
+                </div>
+                <!-- <div class="copyright">
+                    <p>copyright Srushti</p>
+                </div> -->
+        </div>
+       </div>
+
+
+
+    <script src="./Srushti.js"></script>
+</body>
+</html>
